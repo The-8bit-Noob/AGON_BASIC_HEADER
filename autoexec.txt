@@ -1,0 +1,3 @@
+SET KEYBOARD 0
+LOAD bbcbasic.bin
+RUN . /basicheader.bas
