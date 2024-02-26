@@ -7,7 +7,7 @@
    70 REM ******************************
    80 :
    90 DIM VDP_ARRAY(31) : DIM MOS_ARRAY(31)
-   95 ANYKEY%=INKEY(50) : REM DELAY TO MAKE SURE WE HAVE VERSION INFO ON SCREEN (tweak me).
+   95 ANYKEY%=INKEY(200) : REM DELAY TO MAKE SURE VERSION INFO ON SCREEN (tweak me, try lower until vdp & mos info disappear's).
   100 PROC_READ_CHARS(0,0,1)
   110 PROC_READ_CHARS(0,1,2)
   120 REM M% = 8 : BorM$ = "M" : GOTO 300 : REM UNCOMMENT TO SET YOUR DEFAULTS.
